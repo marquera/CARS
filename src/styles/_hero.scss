@@ -2,7 +2,7 @@
 
 .hero {
     padding: 5.6vw;
-    min-height: 80vh;
+    min-height: 70vh;
     background-image: url(../images/hero_desktop.jpeg);
     text-align: center;
     background-size: cover;
@@ -21,14 +21,14 @@
     }
 
     &__content {
-        max-width: 640px;
+        max-width: 580px;
 
-        &__branding {
-            max-width: 320px;
-            margin: 0 auto 38px;
+        &__logo {
+            max-width: 100px;
+        
 
             @media (max-width: 768px) {
-                max-width: 180px;
+                max-width: 50px;
             }
         }
 
